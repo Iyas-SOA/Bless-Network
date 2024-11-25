@@ -6,17 +6,18 @@ import os
 # Fungsi untuk menampilkan logo
 def echo_logo():
     print("\033[1;35m")
-    print("/* █████████      ███████      █████████  */")
-    print("/* ██     ██    ███     ███   ███     ███  */")
-    print("/* ██          ███       ███  ███     ███ */")
-    print("/* █████████   ███       ███  ███████████ */")
-    print("/*        ██   ███       ███  ███     ███ */")
-    print("/* ██     ██    ███     ███   ███     ███ */")
-    print("/* █████████      ███████    █████   █████ */")
+    print("   █████████      ███████      █████████   ")
+    print("   ██     ██    ███     ███   ███     ███  ")
+    print("   ██          ███       ███  ███     ███  ")
+    print("   █████████   ███       ███  ███████████  ")
+    print("          ██   ███       ███  ███     ███  ")
+    print("   ██     ██    ███     ███   ███     ███  ")
+    print("   █████████      ███████    █████   █████ ")
     print("\033[0m")
-    print("    ++WILL++")  # Adjusted to match the format you want
-    print("Hanya konsumsi pribadi")
-    print("")
+    print("==============================================")
+    print("    Telegram Channel  : @schoolofairdrop      ")
+    print("    Telegram Group    : @soadiscussion        ")
+    print("==============================================")
 
 BASE_URL = "https://gateway-run.bls.dev/api/v1/nodes/"
 
